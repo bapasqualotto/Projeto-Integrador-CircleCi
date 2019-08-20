@@ -16,3 +16,7 @@ Depois selecione o Sistema Operacional e a linguagem.
 ![image](https://user-images.githubusercontent.com/6977257/63370905-78efd500-c359-11e9-8f93-738e42bad0cc.png)
 
 Agora iremos configurar o arquivo de *.circleci/config.yml* para que o CircleCi possa capturar as alterações realizadas no projeto.
+
+Crie no seu projeto uma pasta chamada *.circleci* e adicione o arquivo *config.yml* e popule com seus triggers o arquivo.
+
+![image](https://user-images.githubusercontent.com/6977257/63371310-3975b880-c35a-11e9-843b-5c0274f926f6.png)
