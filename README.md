@@ -6,13 +6,17 @@
   <img src="https://user-images.githubusercontent.com/6977257/63563498-b0b47380-c537-11e9-924e-45333cf42f95.png">
 </p>
 
-A CircleCi foi fundada em 2011 e sediada em São Francisco. Já foi considerada líder em integração contínua e processa mais de 30 milhões de construções por mês. A CircleCI é subsidiada pela Scale Venture Partners, pela Threshold Ventures (antiga DFJ), pela Baseline Ventures, pela Top Tier Capital, pela Industry Ventures, pela Heavybit, pela Harrison Metal Capital e pela Owl Rock Capital. Parceiros e Parceiros NextEquity. 
+A **CircleCi** foi fundada em 2011 e sediada em São Francisco. Já foi considerada líder em integração contínua e processa mais de 30 milhões de construções por mês. A CircleCI é subsidiada pela Scale Venture Partners, pela Threshold Ventures (antiga DFJ), pela Baseline Ventures, pela Top Tier Capital, pela Industry Ventures, pela Heavybit, pela Harrison Metal Capital e pela Owl Rock Capital. Parceiros e Parceiros NextEquity. 
 
 Empresas líderes, incluindo a Samsung, a Ford Motor Company, a Spotify, a Lyft, a Coinbase, a PagerDuty, a Stitch Fix e o BuzzFeed utilizam a CircleCI. 
 
-É uma forma de desenvolvimento de software mais rápida, com mais testes e assim, com menos falhas. Ele utiliza CI (integração contínua), que será explicado mais abaixo e seu processamento é feito na nuvem. 
+É uma forma de desenvolvimento de software mais rápida, com mais testes e assim, com menos falhas. Seu processamento é feito na nuvem, e  utiliza CI (integração contínua) e CD (distribuição contínua), que serão explicados mais abaixo.
 
-**Integração contínua** é um meio de desenvolvimento de software em que os desenvolvedores colocam seus códigos em um repositório específico conforme forem finalizando cada funcionalidade.
+**CI/CD** é usado para entregar aplicações com frequência aos clientes. Os conceitos utilizados são integração, entrega e implantação contínuas. Ele faz o monitoramento e automação contínuos durante as etapas de teste e integração e da entrega e implantação. 
+
+**Integração contínua (CI)** é um meio de desenvolvimento de software em que os desenvolvedores colocam seus códigos em um repositório específico conforme forem finalizando cada funcionalidade.
+
+**Distribuição Contínua (CD)** automatiza o lançamento de software completo.
 
 **Teste de cobertura** é uma métrica usada para medir a quantidade de código que foi testada.
 
