@@ -7,6 +7,7 @@
 </p>
 
 A CircleCi foi fundada em 2011 e sediada em São Francisco. Já foi considerada líder em integração contínua e processa mais de 30 milhões de construções por mês. A CircleCI é subsidiada pela Scale Venture Partners, pela Threshold Ventures (antiga DFJ), pela Baseline Ventures, pela Top Tier Capital, pela Industry Ventures, pela Heavybit, pela Harrison Metal Capital e pela Owl Rock Capital. Parceiros e Parceiros NextEquity. 
+
 Empresas líderes, incluindo a Samsung, a Ford Motor Company, a Spotify, a Lyft, a Coinbase, a PagerDuty, a Stitch Fix e o BuzzFeed utilizam a CircleCI. 
 
 Uma forma de desenvolvimento de software mais rápida, com mais testes e assim, com menos falhas. Ele utiliza CI (integração contínua), que será explicado mais abaixo e seu processamento é feito na nuvem. 
