@@ -3,6 +3,7 @@
 # Definição
 
 Uma forma de desenvolvimento de software mais rápido, com mais testes e assim menos falhas.
+
 **Integração contínua** é um meio de desenvolvimento de software em que os desenvolvedores colocam seus códigos em um repositório específico conforme forem finalizando cada funcionalidade.
 
 **Teste de cobertura** é uma métrica usada para medir a quantidade de código que foi testada.
