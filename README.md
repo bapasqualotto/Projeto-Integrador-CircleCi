@@ -10,7 +10,7 @@ A CircleCi foi fundada em 2011 e sediada em São Francisco. Já foi considerada 
 
 Empresas líderes, incluindo a Samsung, a Ford Motor Company, a Spotify, a Lyft, a Coinbase, a PagerDuty, a Stitch Fix e o BuzzFeed utilizam a CircleCI. 
 
-Uma forma de desenvolvimento de software mais rápida, com mais testes e assim, com menos falhas. Ele utiliza CI (integração contínua), que será explicado mais abaixo e seu processamento é feito na nuvem. 
+É uma forma de desenvolvimento de software mais rápida, com mais testes e assim, com menos falhas. Ele utiliza CI (integração contínua), que será explicado mais abaixo e seu processamento é feito na nuvem. 
 
 **Integração contínua** é um meio de desenvolvimento de software em que os desenvolvedores colocam seus códigos em um repositório específico conforme forem finalizando cada funcionalidade.
 
