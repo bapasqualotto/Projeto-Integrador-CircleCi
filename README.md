@@ -79,9 +79,11 @@ for param in sys.argv :
 }
 ```
 
-Feito essas configurações você pode clicar em *Start Bulding*, para que o CircleCi faz as verificações necessarias no projeto.
+Feito essas configurações você pode clicar em *Start Bulding*, para que o CircleCi faça as verificações necessarias no projeto.
 
 ![image](https://user-images.githubusercontent.com/6977257/63386872-68038b80-c37a-11e9-91ca-c71462427f96.png)
 
 Se tudo ocorrer bem irá aparecer que o *JOB* foi bem sucedido, como demonstrado na figura abaixo:
 ![image](https://user-images.githubusercontent.com/6977257/63399558-48cf2300-c3a7-11e9-8b87-bf0d094ec84d.png)
+
+A partir de agora é só começar a fazer seus proprios testes e hands on!
