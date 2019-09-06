@@ -23,7 +23,11 @@ O sistema propõe-se a atender pessoas que necessitam de algum tipo de serviço 
 
 5. O sistema deve permitir que os clientes cancelem o serviço;
     * Sob pena de taxa.
+    
+6. O sistema deve permitir que os clientes mudem a rota durante a execução do serviço:
+    * Caso o valor (R$) da mudança da rota for menor do que a rota atual é: mantido o valor da rota atual.
+    * Caso o valor (R$) da mudança da rota for maior do que a rota atual é: cobrado o valor da nova rota. 
 
-6. O sistema deve permitir mostrar a rota do pedido para o entregador;
+7. O sistema deve permitir mostrar a rota do pedido para o entregador;
     * Estimativa de tempo da atual localidade do entregador até o destino(onde ele deve pegar a mercadoria).
     * Estimativa de tempo da localidade destino até a localidade final.
