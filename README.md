@@ -6,7 +6,7 @@
 </p>
 
 ## A – VISÃO GERAL :eyes:
-O sistema propõe-se a atender pessoas que necessitam de algum tipo de serviço de compra ou entrega (delivery) para quaisquer tipo de produtos. O aplicativo deverá ser usado inicialmente em todo o município de Campo Mourão, podendo depois expandir para os municípios próximos. O usuário especifica qual produto ou serviço ele deseja receber ou entregar, adiciona a localização e as observações necessárias. Espera até que algum entregador receba a notificação e se prontifique a realizar o pedido. Com essa premissa simples, o sistema ideal será capaz de cadastrar  usuários e entregadores, permitir que o usuário adicione um         pedido de serviço de entrega(delivery) e permitir que o entregador mais próximo da localização aceite o pedido de serviço de delivery.                                                                                
+O sistema propõe-se a atender pessoas que necessitam de algum tipo de serviço de compra ou entrega (delivery) para quaisquer tipos de produtos. O aplicativo deverá ser usado inicialmente em todo o município de Campo Mourão, podendo depois expandir para os municípios próximos. O usuário especifica qual produto ou serviço ele deseja receber ou entregar, adiciona a localização e as observações necessárias. Espera até que algum entregador receba a notificação e se prontifique a realizar o pedido. Com essa premissa simples, o sistema ideal será capaz de cadastrar  usuários e entregadores, permitir que o usuário adicione um         pedido de serviço de entrega(delivery) e permitir que o entregador mais próximo da localização aceite o pedido de serviço de delivery.                                                                                
 
 ## B – REQUISITOS FUNCIONAIS :pencil2:
 1. O sistema deve permitir o cadastro de usuários;
@@ -24,7 +24,7 @@ O sistema propõe-se a atender pessoas que necessitam de algum tipo de serviço 
     * Estimativa de tempo da atual localidade do entregador até o destino(onde ele deve pegar a mercadoria).
     * Estimativa de tempo da localidade destino até a localidade final.
     
- ## C – Historias :speech_balloon:
+ ## C – Histórias :speech_balloon:
  * Eu como cliente quero me cadastrar no aplicativo para poder usar as suas funcionalidades;
  * Eu como entregador quero fazer o cadastro no aplicativo para conseguir pegar alguns trabalhos de entrega;
  * Eu como cliente quero solicitar que um entregador pegue um documento no fórum e traga para minha casa;
