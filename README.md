@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://image.flaticon.com/icons/svg/1364/1364461.svg" alt="Logo da Pegasus" style="width:10px;height:10px;">
+  <img src="https://user-images.githubusercontent.com/6977257/64434394-d93f8000-d096-11e9-9474-53534c5cbd49.png" alt="Logo da Pegasus" width="100" height="100">
 </p>
 
 # Serviço de Delivery: Pegasus Delivery
