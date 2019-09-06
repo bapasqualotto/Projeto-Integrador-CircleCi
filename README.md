@@ -1,5 +1,9 @@
-# Serviço de Delivery: Pegasus Delivery
 
+<p align="center">
+  <img src="https://image.flaticon.com/icons/svg/1364/1364461.svg" alt="Logo da Pegasus" style="width:10px;height:10px;">
+</p>
+
+# Serviço de Delivery: Pegasus Delivery
 
 Documento de descrição do software
 Agosto de 2019
