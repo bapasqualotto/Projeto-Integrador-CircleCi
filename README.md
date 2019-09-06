@@ -39,4 +39,5 @@ O sistema propõe-se a atender pessoas que necessitam de algum tipo de serviço 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6977257/64440961-54a72e80-d0a3-11e9-9309-45e0654b4393.png" alt="Tela de Boas Vindas do Pegasus" width="300" height="550">   
   <img src="https://user-images.githubusercontent.com/6977257/64440739-e4001200-d0a2-11e9-8f42-18ee5ede8f89.png" alt="Tela de Login do Pegasus" width="300" height="550">
+   <img src="https://user-images.githubusercontent.com/6977257/64455508-3998e680-d0c4-11e9-9524-3e95f10470f7.png" alt="Tela de Login do Pegasus" width="300" height="550">
 </p>
