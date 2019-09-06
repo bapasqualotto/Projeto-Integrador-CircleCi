@@ -1,14 +1,10 @@
 
+<h1>Serviço de Delivery</h1>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6977257/64434394-d93f8000-d096-11e9-9474-53534c5cbd49.png" alt="Logo da Pegasus" width="100" height="100">
-  <br><b><h1>Serviço de Delivery: Pegasus Delivery</h1></b><br>
+  <br><b>Pegasus Delivery</b><br>
 
 </p>
-
-
-Documento de descrição do software
-Agosto de 2019
-
 
 ## A – VISÃO GERAL
 
