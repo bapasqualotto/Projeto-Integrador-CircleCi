@@ -34,3 +34,9 @@ O sistema propõe-se a atender pessoas que necessitam de algum tipo de serviço 
  * Eu como entregador quero saber uma estimativa aproximada até o local do serviço;
  * Eu como cliente quero  saber o tempo que levará depois que o meu pedido for aceito por um Entregador;
  * Eu como cliente quero alterar a rota depois que o entregador aceitou o serviço;
+
+## D - Preview
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6977257/64439747-101a9380-d0a1-11e9-9039-ac374728859f.png" alt="Tela de Login do Pegasus" width="300" height="550">
+ <br>Tela de Login do Pegasus
+</p>
