@@ -11,7 +11,7 @@ O sistema propõe-se a atender pessoas que necessitam de algum tipo de serviço 
 ## B – REQUISITOS FUNCIONAIS :pencil2:
 1. O sistema deve permitir o cadastro de usuários;
     * Sendo estes clientes e entregadores.
-2. O sistema deve permitir que os clientes escolham qual serviço ou produto desejam obter;
+2. O sistema deve permitir que os clientes escolham entre entrega ou um serviço personalizado;
     * Adicionando as informações necessárias para a realização do Serviço. 
 3. O sistema deve permitir que os entregadores aceitem ou não um pedido;
 4. O sistema deve permitir que os entregadores cancelem o pedido;
