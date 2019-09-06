@@ -1,9 +1,8 @@
 
 <h1>Serviço de Delivery</h1>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/6977257/64434394-d93f8000-d096-11e9-9474-53534c5cbd49.png" alt="Logo da Pegasus" width="100" height="100">
-  <br><b>Pegasus Delivery</b><br>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6977257/64437921-89b08280-d09d-11e9-8634-98c2fcbd8814.png" alt="Logo da Pegasus" >
 </p>
 
 ## A – VISÃO GERAL :eyes:
