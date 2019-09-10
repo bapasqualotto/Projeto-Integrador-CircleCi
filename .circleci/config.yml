@@ -9,8 +9,8 @@ jobs:
       - run:
           name: rodando
           command:
-            python /tutorial/app.py
+            python tutorial/app.py
       - run:
           name: run tests
           command:
-            python /tutorial/app.py test
+            python tutorial/app.py test
