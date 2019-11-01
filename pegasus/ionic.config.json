@@ -1,7 +1,0 @@
-{
-  "name": "surf",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
