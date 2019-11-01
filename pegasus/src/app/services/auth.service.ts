@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
 
+
 import { User } from '../interfaces/user';
 
 @Injectable({
@@ -27,8 +28,6 @@ export class AuthService {
   getEmail(){
     return this.afa.auth.currentUser.email
   }
-
-
 
   getAuth(){
     return this.afa.auth;

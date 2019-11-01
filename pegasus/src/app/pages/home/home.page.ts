@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/services/auth.service';
 import { Router } from '@angular/router';
+import { ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,7 @@ import { Router } from '@angular/router';
 export class HomePage implements OnInit {
   [x: string]: any;
 
-  constructor( private authService: AuthService,  private router: Router) { }
+  constructor( private authService: AuthService,  private router: Router,    private toastCtrl: ToastController,) { }
 
   ngOnInit() {
   }
@@ -28,6 +29,14 @@ export class HomePage implements OnInit {
 
   getEmail(){
     return this.authService.getEmail();
+  }
+
+  async presentToast(message: string) {
+    const toast = await this.toastCtrl.create({
+      message,
+      duration: 2000
+    });
+    toast.present();
   }
   
 
