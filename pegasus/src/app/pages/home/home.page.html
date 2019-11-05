@@ -65,13 +65,15 @@
         </ion-toolbar>
       </ion-header>
 
-      <ion-content>
-  <h1>	Olá {{ getEmail() }} </h1><p>
-</ion-content>
+<ion-content>
+  <h1>	Olá {{ students?.name }} </h1><p>
+    <h3 *ngIf="students?.checkbox == true">Entregador Ve</h3>
+    <h3 *ngIf="students?.checkbox != true"> Só cliente Ve</h3>
+</ion-content> 
 
 
- <ion-button size="large" color="primary">
- 	<ion-icon name="boat"></ion-icon>
+ <ion-button (click)="getName()" size="large" color="primary">
+ 	<ion-icon  name="boat"></ion-icon>
  	Entrega
  </ion-button>
        

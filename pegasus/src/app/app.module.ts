@@ -13,8 +13,10 @@ import { Keyboard } from '@ionic-native/keyboard/ngx';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestore } from '@angular/fire/firestore';
+//import { environment } from 'src/environments/environment';
 import { environment } from 'src/environments/environment';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireDatabase } from '@angular/fire/database';
 
 @NgModule({
   declarations: [AppComponent],
@@ -31,7 +33,8 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     Keyboard,
-    AngularFirestore
+    AngularFireDatabase,
+     AngularFirestore
 
   ],
   bootstrap: [AppComponent]

@@ -46,6 +46,7 @@ export class LoginPage implements OnInit {
 
   async login() {
     await this.presentLoading();
+    
 
     try {
       await this.authService.login(this.userLogin);

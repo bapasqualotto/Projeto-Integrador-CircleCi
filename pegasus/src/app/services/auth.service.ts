@@ -34,4 +34,8 @@ export class AuthService {
 
   }
 
+  getId(){
+    return this.afa.auth.currentUser.uid
+  }
+
 }
