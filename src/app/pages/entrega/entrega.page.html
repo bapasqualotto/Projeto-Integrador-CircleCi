@@ -6,23 +6,23 @@
 
 <ion-item>
   <ion-label position="floating">Origem</ion-label>
-  <ion-input></ion-input>
+  <ion-input [(ngModel)]="entregaData.origem" ></ion-input>
 </ion-item>
 <br>
 <ion-item>
   <ion-label position="floating">Destino</ion-label>
-  <ion-input></ion-input>
+   <ion-input [(ngModel)]="entregaData.destino" ></ion-input>
 </ion-item>
 <br>
 <ion-item>
   <ion-label position="floating">Descrição</ion-label>
-  <ion-input></ion-input>
+  <ion-input [(ngModel)]="entregaData.descricao" ></ion-input>
 </ion-item>
 
 <br>
 
 
-<ion-button size="large" color="tertiary" class="botao" shape="round">Enviar</ion-button>
+<ion-button (click)="createEntrega()" size="large" color="tertiary" class="botao" shape="round">Enviar</ion-button>
 
 <br><br><br><br>
 

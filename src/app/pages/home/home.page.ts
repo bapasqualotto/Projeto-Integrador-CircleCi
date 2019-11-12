@@ -6,10 +6,10 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { ToastController } from '@ionic/angular';
 
 
-
-
 import { AngularFireDatabase } from '@angular/fire/database';
 import { CrudService } from 'src/app/services/crud.service';
+
+
 
 
 @Component({
@@ -17,7 +17,6 @@ import { CrudService } from 'src/app/services/crud.service';
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
 })
-
 export class HomePage implements OnInit {
 
   [x: string]: any;
@@ -57,7 +56,7 @@ export class HomePage implements OnInit {
   async logout() {
     try {
       await this.authService.logout().then(() => {
-        this.presentToast("Voce saiu.");
+        this.presentToast("Voce saiu");
         this.router.navigate(['login']);
       });
     } catch (error) {
@@ -89,5 +88,4 @@ export class HomePage implements OnInit {
     toast.present();
   }
 
- 
 }

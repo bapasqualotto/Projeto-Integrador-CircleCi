@@ -23,3 +23,4 @@ export class CrudService {
   create_NewDelivery(record) {
     return this.firestore.collection('Delivery').add(record);
   }
+  }
