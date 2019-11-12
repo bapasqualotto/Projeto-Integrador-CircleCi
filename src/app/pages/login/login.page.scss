@@ -1,0 +1,74 @@
+.container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 75%;
+    margin: 0 auto;
+    z-index: 2;
+
+    &.top{
+        top: 2%;
+    }
+
+    img{
+
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+
+    &.bottom{
+        bottom: 20%;
+        top: 67%;
+
+        span{
+            color: #132b55;
+        }
+    }
+}
+
+ion-slides{
+    height: 100%;
+    margin-top: 15%;
+
+    .slide-inner{
+        width: 75%;
+        color: #ffffff;
+        background-color: #0071bc;
+       
+        border-radius: 10px;
+        ion-item{
+            --background: rgba(255,255,255,0.2);
+            --border-radius: 10px;
+
+            ion-input{
+                --color: #ffffff;
+            }
+
+        }
+    }
+
+}
+
+.ocean{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40%;
+    
+
+    .waves{
+        position: absolute;
+        top: -180px;
+        left: 0;
+        right: 0;
+        height: 500px;
+        background-image: url('/assets/img/cloud.jpg');
+        background-size: contain;
+        transition: all 0.6s;
+    
+    }
+
+}
+
