@@ -12,18 +12,19 @@ export class CrudService {
     private firestore: AngularFirestore
   ) { }
  
-  read_Students() {
+  read_login() {
     return this.firestore.collection('Users').snapshotChanges();
   }
 
-  read_Students_id(id) {
+  read_login_id(id) {
     return this.firestore.collection('Users').doc(id).valueChanges();
   }
 
-/*  create_NewStudent(record) {
-    return this.firestore.collection('Students').add(record);
+  create_NewDelivery(record) {
+    return this.firestore.collection('Delivery').add(record);
   }
 
+  /*
   update_Student(recordID,record){
     this.firestore.doc('Students/' + recordID).update(record);
   }
