@@ -19,9 +19,7 @@ export class EntregaPage implements OnInit {
   constructor(
     private crudService: CrudService,
     private toastController: ToastController
-    ) {
-    
-  }
+    ) {}
 
   ngOnInit() {
   }

@@ -11,17 +11,17 @@
 <br>
 <ion-item>
   <ion-label position="floating">Destino</ion-label>
-  <ion-input></ion-input>
+  <ion-input [(ngModel)]="servicoData.origem" ></ion-input>
 </ion-item>
 <br>
 <ion-item>
   <ion-label position="floating">Descrição</ion-label>
-  <ion-input></ion-input>
+  <ion-input [(ngModel)]="servicoData.descricao"></ion-input>
 </ion-item>
 
 <br><br>
 
-<ion-button size="large" color="tertiary" class="botao" shape="round">Enviar</ion-button>
+<ion-button (click)="createServico()" size="large" color="tertiary" class="botao" shape="round">Enviar</ion-button>
 
 <ion-button routerLink="/home" size="large" color="secondary" shape="round">Voltar</ion-button>
 
