@@ -51,22 +51,43 @@
       </ion-header>
 
 <ion-content class="background-image" padding>
-  <h1>	Olá {{ students?.name }} </h1><p>
-    <h3 *ngIf="students?.checkbox == true">Só Entregador</h3>
-    <h3 *ngIf="students?.checkbox != true"> Só cliente</h3>
-
-
+  <h1>  Olá {{ students?.name }} </h1><p>
+    
+    
+<div *ngIf="students?.checkbox != true">
 <br><br><br><br><br><br>
  <ion-button routerLink="/entrega" size="large" color="tertiary" shape="round">
- 	<ion-icon  name="boat"></ion-icon>
- 	Entrega
+  <ion-icon  name="boat"></ion-icon>
+  Entrega
  </ion-button>
        <br><br>
 
  <ion-button routerLink="/servico" size="large" color="danger" shape="round">
- 	<ion-icon name="car"></ion-icon>
- 	Serviço personalizado
+  <ion-icon name="car"></ion-icon>
+  Serviço personalizado
+ </ion-button>
+</div>
+
+<div *ngIf="students?.checkbox == true">
+<br><br><br><br><br><br>
+<ion-button routerLink="/entrega" size="large" color="success" shape="round">
+  <ion-icon  name="code-working"></ion-icon>
+  Entrega em andamento
  </ion-button>
 
+<br><br>
+<ion-button routerLink="/entrega" size="large" color="tertiary" shape="round">
+  <ion-icon  name="car"></ion-icon>
+  Entregas solicitadas
+ </ion-button>
+       <br><br>
+
+ <ion-button routerLink="/servico" size="large" color="danger" shape="round">
+  <ion-icon name="checkmark"></ion-icon>
+  Entregas realizadas
+ </ion-button>
+
+
+</div>
   
 </ion-content>
