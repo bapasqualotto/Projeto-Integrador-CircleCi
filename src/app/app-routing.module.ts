@@ -9,6 +9,10 @@ const routes: Routes = [
   { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule', canActivate: [LoginGuard]  },
   { path: 'entrega', loadChildren: './pages/entrega/entrega.module#EntregaPageModule',canActivate: [AuthGuard] },
   { path: 'servico', loadChildren: './pages/servico/servico.module#ServicoPageModule', canActivate: [AuthGuard] },
+  { path: 'solicitadas', loadChildren: './pages/solicitadas/solicitadas.module#SolicitadasPageModule', canActivate: [AuthGuard] },
+  { path: 'andamento', loadChildren: './pages/andamento/andamento.module#AndamentoPageModule', canActivate: [AuthGuard] },
+  { path: 'realizadas', loadChildren: './pages/realizadas/realizadas.module#RealizadasPageModule' },
+
 ];
 
 @NgModule({
