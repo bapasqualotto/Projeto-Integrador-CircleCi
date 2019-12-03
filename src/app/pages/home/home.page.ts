@@ -12,6 +12,8 @@ import { CrudService } from 'src/app/services/crud.service';
 
 
 
+
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.page.html',
@@ -53,6 +55,8 @@ export class HomePage implements OnInit {
       });*/
     }
 
+
+
   async logout() {
     try {
       await this.authService.logout().then(() => {
@@ -86,6 +90,27 @@ export class HomePage implements OnInit {
       duration: 2000
     });
     toast.present();
+  }
+
+
+  teste(){
+    console.log("Testando Botão")
+    
+      this.crudService.read_Students().subscribe(data => {
+   
+        this.students = data.map(e => {
+          return {
+            id: e.payload.doc.id,
+            isEdit: false,
+            Email: e.payload.doc.data()['email'],
+            Name: e.payload.doc.data()['name'],
+            Password: e.payload.doc.data()['password'],
+          };
+        })
+        console.log(this.students);
+   
+      });
+
   }
 
 }

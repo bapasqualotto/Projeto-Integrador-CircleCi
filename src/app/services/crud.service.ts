@@ -27,5 +27,9 @@ export class CrudService {
   create_NewServico(record) {
     return this.firestore.collection('Servico').add(record);
   }
+
+  read_services() {
+    return this.firestore.collection('Servico').snapshotChanges();
+  }
   
 }

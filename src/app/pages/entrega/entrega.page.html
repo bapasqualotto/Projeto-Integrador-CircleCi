@@ -1,4 +1,23 @@
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css"/>
+  
+  
+    
+    
+    <style>
+      :root {
+        --ion-safe-area-top: 20px;
+        --ion-safe-area-bottom: 22px;
+      }
+    </style>
+  </head>
+
 <ion-content class="background-image" padding>
   <ion-header>
   <ion-title text-center>ENTREGA</ion-title>
@@ -22,6 +41,9 @@
 
 <br>
 
+<div id="mapId">
+  </div>
+
 
 <ion-button (click)="createEntrega()" size="large" color="tertiary" class="botao" shape="round">Enviar</ion-button>
 
@@ -29,8 +51,7 @@
 
 <br><br><br><br>
 
-<div>
 
-</div>
+
 
 </ion-content>

@@ -5,6 +5,10 @@
   <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js"></script>
   <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css"/>
+
+
+  
+  
   <style>
     :root {
       --ion-safe-area-top: 20px;
@@ -49,10 +53,10 @@
           <ion-title>Home</ion-title>
         </ion-toolbar>
       </ion-header>
-
 <ion-content class="background-image" padding>
   <h1>  Olá {{ students?.name }} </h1><p>
     
+   
     
 <div *ngIf="students?.checkbox != true">
 <br><br><br><br><br><br>
@@ -85,6 +89,11 @@
  <ion-button routerLink="/servico" size="large" color="danger" shape="round">
   <ion-icon name="checkmark"></ion-icon>
   Entregas realizadas
+ </ion-button>
+
+ <ion-button (click)="teste()" size="large" color="success" shape="round">
+  <ion-icon name="checkmark"></ion-icon>
+  Teste
  </ion-button>
 
 
