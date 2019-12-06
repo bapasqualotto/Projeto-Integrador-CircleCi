@@ -24,6 +24,7 @@ export class HomePage implements OnInit {
   [x: string]: any;
 
   students: any;
+  servicos: any;
 
   constructor( private authService: AuthService,
     private router: Router,
@@ -96,18 +97,15 @@ export class HomePage implements OnInit {
   teste(){
     console.log("Testando Botão")
     
-      this.crudService.read_Students().subscribe(data => {
+      this.crudService.read_services().subscribe(data => {
    
-        this.students = data.map(e => {
+        this.servicos = data.map(e => {
           return {
-            id: e.payload.doc.id,
-            isEdit: false,
-            Email: e.payload.doc.data()['email'],
-            Name: e.payload.doc.data()['name'],
-            Password: e.payload.doc.data()['password'],
+            Email: e.payload.doc.data()['descricao'],
+            Name: e.payload.doc.data()['origem'],
           };
         })
-        console.log(this.students);
+        console.log(this.servicos);
    
       });
 
