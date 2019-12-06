@@ -31,5 +31,8 @@ export class CrudService {
   read_services() {
     return this.firestore.collection('Servico').snapshotChanges();
   }
+  read_delivery() {
+    return this.firestore.collection('Delivery').snapshotChanges();
+  }
   
 }

@@ -94,21 +94,6 @@ export class HomePage implements OnInit {
   }
 
 
-  teste(){
-    console.log("Testando Botão")
-    
-      this.crudService.read_services().subscribe(data => {
-   
-        this.servicos = data.map(e => {
-          return {
-            Email: e.payload.doc.data()['descricao'],
-            Name: e.payload.doc.data()['origem'],
-          };
-        })
-        console.log(this.servicos);
-   
-      });
 
-  }
 
 }
