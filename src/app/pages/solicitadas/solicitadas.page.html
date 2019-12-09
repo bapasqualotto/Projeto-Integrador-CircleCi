@@ -1,11 +1,67 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>solicitadas</ion-title>
-  </ion-toolbar>
+
+<ion-content class="background-image" padding>
+<ion-header>  
+    <ion-title>Entregas Solicitadas</ion-title>
 </ion-header>
 
-<ion-content>
+<br><br>
+<!-- TESTES
 
-	Hello 
+<ion-card color="light">
+  <ion-card-header>
+    <ion-card-title>Nome do cliente</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Descrição......................
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="card">
+  <ion-card-header>
+    <ion-card-title>Nome do cliente</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content class="corletra">
+    Descrição......................
+  </ion-card-content>
+</ion-card>
+
+
+ -->
+
+<div >
+<ion-card class="card" *ngFor="let item of servicos" >
+  <ion-card-header>
+    <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+    <ion-card-title>Descrição: {{item.Desc}}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Origem: {{item.Ori}}
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="card" *ngFor="let item of delivery" >
+  <ion-card-header>
+    <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+    <ion-card-title>Descrição: {{item.Desc}}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Origem: {{item.Ori}}
+  </ion-card-content>
+  <ion-card-content>
+    Destino: {{item.Dest}}
+  </ion-card-content>
+</ion-card>
+
+</div>
+
+<br><br>
+
+<ion-button routerLink="/home" size="large" color="danger" shape="round" class="botao">Voltar</ion-button>
+<ion-button (click)="teste()" size="large" color="danger" shape="round" class="botao">Testar</ion-button>
+
+
 
 </ion-content>
