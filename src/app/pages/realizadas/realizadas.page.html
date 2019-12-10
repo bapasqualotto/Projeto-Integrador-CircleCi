@@ -1,7 +1,7 @@
 
 <ion-content class="background-image" padding>
 <ion-header>  
-    <ion-title>Entregas Realizadas</ion-title>
+    <ion-title>Entregas em aberto</ion-title>
 </ion-header>
 
 <br><br>
@@ -40,6 +40,7 @@
   <ion-card-content>
     Origem: {{item.Ori}}
   </ion-card-content>
+  <ion-button routerLink="/home" size="large" color="danger" shape="round" class="botao">Aceitar</ion-button>
 </ion-card>
 
 <ion-card class="card" *ngFor="let item of delivery" >
@@ -53,6 +54,7 @@
   <ion-card-content>
     Destino: {{item.Dest}}
   </ion-card-content>
+  <ion-button routerLink="/home" size="large" color="danger" shape="round" class="botao">Aceitar</ion-button>
 </ion-card>
 
 </div>
@@ -60,8 +62,6 @@
 <br><br>
 
 <ion-button routerLink="/home" size="large" color="danger" shape="round" class="botao">Voltar</ion-button>
-<ion-button (click)="teste()" size="large" color="danger" shape="round" class="botao">Testar</ion-button>
-
 
 
 </ion-content>
