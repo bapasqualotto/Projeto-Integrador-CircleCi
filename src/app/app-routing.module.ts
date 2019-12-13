@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'servico', loadChildren: './pages/servico/servico.module#ServicoPageModule', canActivate: [AuthGuard] },
   { path: 'solicitadas', loadChildren: './pages/solicitadas/solicitadas.module#SolicitadasPageModule', canActivate: [AuthGuard] },
   { path: 'andamento', loadChildren: './pages/andamento/andamento.module#AndamentoPageModule', canActivate: [AuthGuard] },
-  { path: 'realizadas', loadChildren: './pages/realizadas/realizadas.module#RealizadasPageModule' },
+  { path: 'realizadas', loadChildren: './pages/realizadas/realizadas.module#RealizadasPageModule', canActivate: [AuthGuard] },
 
 ];
 
