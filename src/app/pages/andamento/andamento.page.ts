@@ -32,7 +32,7 @@ export class AndamentoPage implements OnInit {
             Ori: e.payload.doc.data()['Ori'],
             idEntre: e.payload.doc.data()['idEntre'],
             idAtual: this.authService.getId(),
-            id: e.payload.doc.id
+            Id: e.payload.doc.id
           };
         
        
