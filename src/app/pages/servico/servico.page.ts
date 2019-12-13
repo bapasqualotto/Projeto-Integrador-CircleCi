@@ -22,10 +22,10 @@ export class ServicoPage implements OnInit {
   ngOnInit() {}
 
   createServico(){
-    console.log("Testando Bottão")
+    console.log("Criando Serviço...")
     
     this.crudService.create_NewServico(this.servicoData).then(resp => {
-      this.presentToast("Criado!");
+      this.presentToast("Serviço Criado!");
 
       
     })
