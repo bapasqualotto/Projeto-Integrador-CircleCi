@@ -31,7 +31,8 @@ export class AndamentoPage implements OnInit {
             Dest: e.payload.doc.data()['Dest'],
             Ori: e.payload.doc.data()['Ori'],
             idEntre: e.payload.doc.data()['idEntre'],
-            idAtual: this.authService.getId()
+            idAtual: this.authService.getId(),
+            id: e.payload.doc.id
           };
         
        
@@ -39,6 +40,11 @@ export class AndamentoPage implements OnInit {
       console.log("CONSOLE: "+this.allservicos);
 
     });
+
+  }
+
+  deleteServico(itemObjeto, colecao){
+    this.crudService.delete(itemObjeto.Id, colecao);
 
   }
 
