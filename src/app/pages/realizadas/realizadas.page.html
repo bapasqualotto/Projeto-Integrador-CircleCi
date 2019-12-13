@@ -1,7 +1,7 @@
 
 <ion-content class="background-image" padding>
 <ion-header>  
-    <ion-title>Entregas Realizadas</ion-title>
+    <ion-title>Entregas Disponiveis</ion-title>
 </ion-header>
 
 <br><br>
@@ -44,7 +44,6 @@
 
 <ion-card class="card" *ngFor="let item of delivery" >
   <ion-card-header>
-    <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
     <ion-card-title>Descrição: {{item.Desc}}</ion-card-title>
   </ion-card-header>
   <ion-card-content>
@@ -60,7 +59,6 @@
 <br><br>
 
 <ion-button routerLink="/home" size="large" color="danger" shape="round" class="botao">Voltar</ion-button>
-<ion-button (click)="teste()" size="large" color="danger" shape="round" class="botao">Testar</ion-button>
 
 
 

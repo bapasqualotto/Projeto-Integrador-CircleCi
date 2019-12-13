@@ -1,4 +1,23 @@
 
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css"/>
+
+
+  
+  
+  <style>
+    :root {
+      --ion-safe-area-top: 20px;
+      --ion-safe-area-bottom: 22px;
+    }
+  </style>
+</head>
 <ion-content class="background-image" padding>
   
   <ion-title text-center>SERVIÇO PERSONALIZADO</ion-title>
@@ -9,6 +28,7 @@
  <ion-input></ion-input>
 </ion-item> -->
 <br>
+<div>
 <ion-item>
   <ion-label position="floating">Destino</ion-label>
   <ion-input [(ngModel)]="servicoData.origem" ></ion-input>
@@ -18,7 +38,7 @@
   <ion-label position="floating">Descrição</ion-label>
   <ion-input [(ngModel)]="servicoData.descricao"></ion-input>
 </ion-item>
-
+</div>
 <br><br>
 
 <ion-button (click)="createServico()" size="large" color="tertiary" class="botao" shape="round">Enviar</ion-button>
@@ -27,9 +47,6 @@
 
 <br><br><br><br>
 
-<div>
-
-</div>
 
 
 
